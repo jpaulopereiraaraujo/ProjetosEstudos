@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int n;
+	cout << "digite n: ";
+	cin >> n;
+	if (n%3 == 0){
+		cout << "n é multiplo de 3";
+	}
+	else{
+		cout <<"n não é múltiplo de 3";
+	}
+}

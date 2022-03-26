@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+main(){
+    float  grauCelsius, grauFarenheit;
+    cout << "Digite o grau em Farenheit";
+    cin >> grauFarenheit;
+    grauCelsius = grauFarenheit - 32
+    cout << "Conversão para  Celsius é : " << grauCelsius;
+
+
+}

@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int n;
+	cout << "digite n: ";
+	cin >> n;
+	if (n%3 == 0){
+		cout << "n é multiplo de 3";
+	}
+	else{
+		cout <<"n não é múltiplo de 3";
+	}
+}
+/*Algoritmo proximoM3
+var n: inteiro;
+Inicio
+Escreva "Digite n: ";
+Leia n;
+Se (n%3 == 0)
+   Escreva n;
+ FimSe;
+   Se (n%3 == 1)
+      n <- n + 2;
+      Escreva n;
+   FimSe;
+   Se (n%3 == 2)
+       n <- n + 1;
+       Escreva n;
+   fimSe;
+Fim*/
