@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluladora Simples</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    Operador 1 <input type="number" name ='txtn1' id ='txtn1'> <br>
+    Operador 2 <input type="number" name ='txtn2' id ='txtn2'> <br>
+    <div id = "res">     </div><br><br>
+    
+    <input type="button" value="somar" onclick="somar()">
+    <input type="button" value="subtrair" onclick="subtrair()">
+    <input type="button" value="multiplicar" onclick="multiplicar()">
+    <input type="button" value="dividir" onclick="dividir()">
+
+    
+
+    
+    <script>
+        function somar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById("res")
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerText = 'A soma entre ' + n1 + ' e ' + n2 + ' é = ' +
+            s
+        }
+
+        function subtrair(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var sub = n1 - n2
+            res.innerText = 'A subtração entre ' + n1 + ' e ' + n2 + ' é = ' + sub
+
+        }
+
+        function multiplicar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var mult = n1*n2
+            res.innerText = 'A multiplicação estre ' + n1 + ' e ' + n2 +' é = ' + mult
+
+        }
+
+        function dividir(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var dividir = n1/n2
+            res.innerText = 'A divisão entre ' + n1 + ' e  ' +  n2 + ' é = ' + dividir
+        }
+
+    </script>
+    
+</body>
+</html>
