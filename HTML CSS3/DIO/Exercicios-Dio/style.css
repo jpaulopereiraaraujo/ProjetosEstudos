@@ -1,9 +1,55 @@
+body{
+    background-color: rgb(119, 97, 129);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.logo{
+    border: 10px solid cornflowerblue;
+    
+
+}
+
 #title, .subtitle,.post_title{
-    color:blue;
+    color:rgb(89, 89, 117);
+    text-transform: uppercase;
 }
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+    font-family: fantasy;
+    margin: 0;
+    margin-bottom: 15px;
+    
+}
+
+.post{
+    background-color: white;
+    padding: 15px;
+    border: 3px solid rgb(55, 45, 100);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.header{
+    background-image: url(alexander-sinn-KgLtFCgfC28-unsplash_opaco.jpg);
+    width: 100%;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
+
+.contact_list{
+    list-style-type: none;
+    padding: 0;
     
 }
